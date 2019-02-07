@@ -1,0 +1,271 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://sprites/sand_tile.png" type="Texture" id=1]
+[ext_resource path="res://scenes/character.tscn" type="PackedScene" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[node name="Node" type="Node" index="0"]
+
+[node name="ground" type="Node" parent="." index="0"]
+
+editor/display_folded = true
+
+[node name="ground_tile" type="RigidBody2D" parent="ground" index="0"]
+
+editor/display_folded = true
+position = Vector2( 128, 128 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile2" type="RigidBody2D" parent="ground" index="1"]
+
+editor/display_folded = true
+position = Vector2( 144, 128 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile2" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile2" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile3" type="RigidBody2D" parent="ground" index="2"]
+
+editor/display_folded = true
+position = Vector2( 112, 144 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile3" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile3" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile4" type="RigidBody2D" parent="ground" index="3"]
+
+editor/display_folded = true
+position = Vector2( 96, 144 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile4" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile4" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile5" type="RigidBody2D" parent="ground" index="4"]
+
+editor/display_folded = true
+position = Vector2( 160, 128 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile5" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile5" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile6" type="RigidBody2D" parent="ground" index="5"]
+
+editor/display_folded = true
+position = Vector2( 80, 144 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile6" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile6" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile7" type="RigidBody2D" parent="ground" index="6"]
+
+editor/display_folded = true
+position = Vector2( 64, 128 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile7" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile7" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="ground_tile8" type="RigidBody2D" parent="ground" index="7"]
+
+editor/display_folded = true
+position = Vector2( 48, 128 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground/ground_tile8" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="ground/ground_tile8" index="1"]
+
+texture = ExtResource( 1 )
+
+[node name="stanley" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 96, 80 )
+mass = 5.0
+gravity_scale = 2.0
+
+
