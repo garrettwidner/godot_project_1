@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stanley_run_3.png-cefd34a7c22c185be5a48e919bbdaf0c.stex"
+path="res://.import/stanley-sheet.png-cfce4aa16b4f49468b5e08efe38abe62.stex"
 
 [deps]
 
-source_file="res://sprites/stanley_run_3.png"
-dest_files=[ "res://.import/stanley_run_3.png-cefd34a7c22c185be5a48e919bbdaf0c.stex" ]
+source_file="res://sprites/stanley-sheet.png"
+dest_files=[ "res://.import/stanley-sheet.png-cfce4aa16b4f49468b5e08efe38abe62.stex" ]
 
 [params]
 
